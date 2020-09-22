@@ -39,7 +39,7 @@ mongoose.connect(process.env.MONGO_URI,
     }
 );
 
-//body parser to grab data from from
+//body parser to grab data from form
 app.use(bodyParser.urlencoded({extended: true}));
 
 
