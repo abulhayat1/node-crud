@@ -1,0 +1,30 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "create read update delete implementation using node and mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abul Hayat",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abulhayat1/node-crud.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abulhayat1/node-crud/issues"
+  },
+  "homepage": "https://github.com/abulhayat1/node-crud#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.10.5"
+  }
+}

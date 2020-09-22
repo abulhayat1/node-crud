@@ -1,0 +1,11 @@
+<!-- check and pass success message -->
+<% if(success.length > 0){ %>
+    <div class="alert alert-success"><%= success %></div>
+<% } %>
+
+<div class="jumbotron text-center">
+    <img src=<%= event.thumbnail %> class="img-thumbnail" alt="Cinque Terre" width="304" height="236">
+    <h1><%= event.name %></h1>
+    <p><%= event.description %></p>
+</div>
+    
